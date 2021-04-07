@@ -1,0 +1,6 @@
+const naturalJS = (fucntion() {
+
+
+
+
+}) ();
