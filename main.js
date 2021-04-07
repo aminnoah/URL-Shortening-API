@@ -44,6 +44,7 @@ function shortLink() {
           let btn_copy = document.querySelectorAll('.btn-copy');
           btn_copy.forEach((btn) => {
             btn.addEventListener('click', async function copy() {
+              btn.innerHTML = "Copied!";
               const short_url = btn.value;
               await navigator.clipboard.writeText(short_url);
             });

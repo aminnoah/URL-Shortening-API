@@ -43,30 +43,30 @@ header .menu .header__menu__nav {
   width: 100%;
 }
 
-header .menu .nav .header__menu__nav__items {
+header .menu .header__menu__nav__items {
   display: flex;
   padding: 0 10px;
 }
 
-header .menu .nav .header__menu__nav__items li a {
+header .menu .header__menu__nav__items li a {
   padding: 10px;
   color: #9e9aa7;
 }
 
-header .menu .nav ul li a:hover {
+header .menu ul li a:hover {
   color: #35323e;
 }
 
-header .menu .nav .header__login a {
+header .menu .header__login a {
   padding: 10px;
   color: #9e9aa7;
 }
 
-header .menu .nav .header__login a:hover {
+header .menu .header__login a:hover {
   color: #35323e;
 }
 
-header .menu .nav .header__login .header__login--sign-up {
+header .menu .header__login .header__login--sign-up {
   margin: 0 10px;
   padding: 10px 20px;
   font-size: 15px;
@@ -372,8 +372,21 @@ main .initial-info p {
   .stats {
     padding: 0 0 150px 0;
   }
+  .stats span {
+    display: block;
+    max-width: 500px;
+    font-size: 15px;
+    color: #9e9aa7;
+    line-height: 1.5;
+  }
   .stats span::after {
-    display: none;
+    content: '';
+    width: 10px;
+    height: 500px;
+    background-color: #2acfcf;
+    position: relative;
+    top: 200px;
+    display: inline;
   }
 }
 
