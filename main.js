@@ -1,3 +1,4 @@
+const menuBars = document.querySelector('.menu-bars')
 const menuNav = document.querySelector('.header__menu__nav');
 const btnShort = document.querySelector('.btn-short');
 const error = document.querySelector('.error');
