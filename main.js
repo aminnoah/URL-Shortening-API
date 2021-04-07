@@ -1,4 +1,4 @@
-const menuNav = document.querySelector('.header__nav');
+const menuNav = document.querySelector('.header__menu__nav');
 const btnShort = document.querySelector('.btn-short');
 const error = document.querySelector('.error');
 const urlInput = document.getElementById('url-input');
@@ -23,7 +23,7 @@ function shortLink() {
     } else if (urlInput.value !== '') {
       // if value, hide error, send get request to url shortner
       error.style.visibility = 'hidden';
-      const url = `https://api.shrtco.de/v2/shorten?url=${input.value}`;
+      const url = `https://api.shrtco.de/v2/shorten?url=${urlInput.value}`;
       fetch(url)
         .then((response) => response.json())
         .then((link) => {
