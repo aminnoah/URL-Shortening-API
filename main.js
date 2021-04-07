@@ -1,4 +1,4 @@
-const naturalJS = (fucntion() {
+const customJS = (function() {
 
 
 
