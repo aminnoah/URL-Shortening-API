@@ -67,6 +67,7 @@ function shortLink() {
             <button class="btn-copy" value="${short_url}">Copy</button>
           </div>
           `;
+          urlInput.value = ''
           // copy button to copy to clipboard
           let btn_copy = document.querySelectorAll('.btn-copy');
           btn_copy.forEach((btn) => {
